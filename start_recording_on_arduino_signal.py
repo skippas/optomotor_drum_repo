@@ -8,7 +8,7 @@ from picamera2.outputs import FileOutput
 # --- Config ---
 GPIO_PIN = 17              # GPIO pin where Arduino sends signal
 VIDEO_LENGTH = 5           # seconds
-SAVE_DIR = "/home/pi/videos"
+SAVE_DIR = "/home/pi/Videos"
 
 # --- Setup GPIO ---
 GPIO.setmode(GPIO.BCM)
